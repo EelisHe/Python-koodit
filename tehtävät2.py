@@ -1,7 +1,7 @@
 #1.tehtävä
 
 nimi = input("anna nimesi: ")
-print(f"Moikkelis {"Eelis"}")
+print(f"Moikkelis {nimi}")
 
 #2.tehtävä
 import math
@@ -38,4 +38,17 @@ grammat = kaikkiluodit * 13.3
 print(f"grammat on: {grammat:.0f} grammaa")
 print(f"Massa nykymittojen mukaan on: {grammat // 1000:.0f} kiloa ja {grammat % 1000:.0f} grammaa.")
 
+#6. tehtävä
+import random
+numero1 = random.randint(1, 9)
+numero2 = random.randint(1, 9)
+numero3 = random.randint(1, 9)
+import math
+print(f"kolminumeroisen lukon koodi:  {numero1, numero2, numero3}")
 
+numeroA = random.randint(1, 6)
+numeroB = random.randint(1, 6)
+numeroC = random.randint(1, 6)
+numeroD = random.randint(1, 6)
+
+print(f"Nelinumeroisen lukon koodi: {numeroA, numeroB, numeroC, numeroD}")
